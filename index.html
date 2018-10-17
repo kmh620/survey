@@ -17,7 +17,7 @@
             <label for="name">Name:</label>
             <input id="name" class="form-control" type="text">
             <label for="color">Favorite Color:</label>
-            <input id="color" class="form-control" type="color">
+            <input id="color" class="form-control" type="color" value="#000080">
             <label for="music">Favorite Music Genre:</label>
             <select id="music" class="form-control">
               <option>Rock & Roll</option>
@@ -43,8 +43,25 @@
                 Thai
               </label>
             </div>
+
+            <button type="submit" name="button">Submit Survey</button>
+
           </div>
         </form>
+        <div id="modal" class="modal" tabindex="-1" role="dialog">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title">Thanks for your help!</h5>
+              </div>
+              <div class="modal-body">
+                <p class="color">skdjfhgsd;djsl</p>
+                <p class="music">skdjfhgsd;djsl</p>
+                <p class="food">skdjfhgsd;djsl</p>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </body>
